@@ -1,0 +1,20 @@
+/*
+Colors:
+deepblue =  #142F61
+skyblue =   #77B3D9
+raincoat =  #F2B705
+fullpurps = #C000DB
+warmwhite =  #FEFBEB
+
+*/
+:root{
+    --deepblue:     #142F61;
+    --skyblue:      #77B3D9;
+    --seablue:      #265DA6;
+    --raincoat:     #F2B705;
+    --fullpurps:    #C000DB;
+    --warmwhite:    #FEFBEB;
+    --header-font:  'Fredoka One', 'Lilita One', 'Arial Narrow', Arial, sans-serif;
+    --body-font:    'Quicksand', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
