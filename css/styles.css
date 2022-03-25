@@ -2,7 +2,44 @@
 
 /* Global Styles */
 
+html{
+    scroll-behavior: smooth;
+}
 
+body{
+    margin: 0;
+    background-color: var(--warmwhite);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+    font-size: 2rem;
+    color: var(--deepblue);
+}
+
+a, p, li{
+    font-family: var(--body-font);
+    font-size: 1.2rem; 
+    text-align: left;
+    color: var(--deepblue);
+}
+
+main{
+    min-height: calc(100vh - 100px);
+}
+
+section{
+    margin: 50px auto;
+}
+
+article > p{
+    line-height: 1.5;
+}
+
+section:nth-of-type(1){
+    margin-top: 0px;
+}
+/* -------------------------- */
 
 /* Styling the header */
 
@@ -23,7 +60,6 @@ header > a{
 .header_logo{
     height: 100%;
     background-color: var(--deepblue);
-    width: 75px;
 }
 
 .nav_ul{
@@ -31,13 +67,13 @@ header > a{
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0px auto;
-    background-color: var(--offwhite);
     width: 100%;
     border-radius: 0px 0px 0px 15px;
     padding: 0px;
     align-items: flex-end;
     border: 2px solid black;
     border-top: none;
+    background-color: var(--raincoat);
 }
 
 .nav_li{
@@ -52,7 +88,6 @@ header > a{
     padding: 0px 10px;
     border: 2px solid #00000000;
     border-radius: 15px;
-    color: black;
     transition: ease-in-out 0.3s;
 }
 
@@ -109,4 +144,49 @@ nav{
 #menu_icon:hover{
     cursor: pointer;
     position: absolute;
+}
+/* -------------------------- */
+
+
+
+/* Media Queries */
+@media (min-width: 910px) {
+
+    .logo_banner{
+        flex: 3;
+    }
+
+    #menu_icon{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        position: absolute;
+        top: 50px;
+    }
+
+    .nav_ul{
+        flex-direction: row;
+        border: 2px solid black;
+        border-radius: 0px;
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .hero_image{
+        height: 800px;
+        object-position: 50% 30%;
+    }
+
+    .footer_contentbox{
+        margin: 0px auto;
+    }
+}
+
+@media (max-width:360px) {
+    .site_name{
+        display: none;
+    }
 }
