@@ -62,6 +62,10 @@ header > a{
     background-color: var(--deepblue);
 }
 
+nav{
+    transition: top 0.3s;
+}
+
 .nav_ul{
     display: flex;
     flex-direction: column;
