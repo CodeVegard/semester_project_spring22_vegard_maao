@@ -107,6 +107,7 @@ nav{
 
 .logo_banner{
     display: flex;    
+    max-width: 100%;
 }
 
 .site_name{
