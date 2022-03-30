@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--header-font);
     font-size: 2rem;
     color: var(--deepblue);
+    font-weight: 500;
 }
 
 a, p, li{
@@ -22,6 +23,7 @@ a, p, li{
     font-size: 1.2rem; 
     text-align: left;
     color: var(--deepblue);
+    line-height: 1.5;
 }
 
 main{
@@ -32,13 +34,14 @@ section{
     margin: 50px auto;
 }
 
+section:nth-of-type(1){
+    margin-top: 30px;
+}
+
 article > p{
     line-height: 1.5;
 }
 
-section:nth-of-type(1){
-    margin-top: 0px;
-}
 /* -------------------------- */
 
 /* Styling the header */
@@ -151,10 +154,50 @@ nav{
 }
 /* -------------------------- */
 
+/* Here is the hero story */
 
+.hero_image{
+    max-width: 100%;
+    width: 1000px;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 35px;
+    display: block;
+}
+
+.hero_story{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.story_txt{
+    margin: 10px 15px;
+}
+
+.cta_btn{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 25px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: var(--header-font);
+    color: var(--raincoat);
+    background-color: var(--deepblue);
+    transition: ease-in-out 0.3s;
+}
+
+.cta_btn:hover{
+    transition: ease-in-out 0.3s;
+    color: wheat;
+}
+
+/* ------------------ */
 
 /* Media Queries */
-@media (min-width: 910px) {
+@media (min-width: 950px) {
 
     .logo_banner{
         flex: 3;
@@ -179,9 +222,8 @@ nav{
         border-right: none;
     }
 
-    .hero_image{
-        height: 800px;
-        object-position: 50% 30%;
+    section:nth-of-type(1){
+        margin-top: 100px;
     }
 
     .footer_contentbox{
