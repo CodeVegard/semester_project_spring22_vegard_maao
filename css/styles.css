@@ -107,7 +107,6 @@ nav{
 
 .logo_banner{
     display: flex;    
-    max-width: 100%;
 }
 
 .site_name{
@@ -174,6 +173,8 @@ nav{
 
 .story_txt{
     margin: 10px 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .cta_btn{
@@ -232,7 +233,7 @@ nav{
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:460px) {
     .site_name{
         display: none;
     }
