@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2rem;
     color: var(--deepblue);
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 a, p, li{
@@ -28,6 +29,8 @@ a, p, li{
 
 main{
     min-height: calc(100vh - 100px);
+    max-width: 950px;
+    margin: auto;
 }
 
 section{
@@ -158,6 +161,10 @@ nav{
 
 /* Here is the hero story */
 
+.primary_section{
+    margin: 18px;
+}
+
 .hero_image{
     max-width: 100%;
     width: 1000px;
@@ -198,6 +205,153 @@ nav{
     color: wheat;
 }
 
+/* ------------------ */
+
+/* This is the secondary story */
+
+.secondary_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.scnd_story{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.scnd_img{
+    max-width: 100%;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+
+/* ------------------ */
+
+/* Event calendar */
+
+.event_calendar{
+    border: 2px solid var(--deepblue);
+    border-radius: 35px;
+    margin: 18px;
+}
+
+.calendar_header{
+    background-color: var(--raincoat);
+    border-bottom: 2px solid var(--deepblue);
+    border-radius: 35px 35px 0px 0px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.calendar_header > h3{
+    margin: 5px;
+    font-size: 1.3rem;
+}
+
+.month{
+    border-bottom: 2px solid var(--deepblue);
+}
+
+.month > p{
+    font-family: var(--header-font);
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.weeks_days >* {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+}
+
+.weekdays{
+    list-style: none;
+    border-bottom: 1px solid var(--deepblue);
+    padding: 0px;
+}
+
+.days{
+    list-style: none;
+    padding: 0px;
+}
+
+.days > li{
+    list-style-type: none;
+    margin: 5px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.days > li:hover{
+    background-color: var(--deepblue);
+    color: var(--raincoat);
+}
+
+/* ------------------ */
+
+
+/* Footer */
+
+footer{
+    background-color: var(--offwhite);
+    height: 50px;
+    border-top: 2px solid black;
+}
+
+.footer_contentbox{
+    max-width: 900px;
+    margin: 0px 10px;
+    padding: 0px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr;
+}
+
+.some{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+a > i{
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+    margin: 0px 15px;
+    display: inline;
+}
+
+.about{
+    align-self: flex-end;
+}
+
+.cs_header{
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.cs_ul{
+    padding-left: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.cs_li{
+    list-style: none;
+    margin: 5px 0px;
+    font-size: 0.9rem;
+}
+
+.cs_li > a{
+    font-size: 0.9rem;
+    font-family: var(--body-font);
+}
 /* ------------------ */
 
 /* Media Queries */
