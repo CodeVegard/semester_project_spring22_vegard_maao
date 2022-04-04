@@ -1,0 +1,74 @@
+/* I want to style the secondary stories to have  uneven edges */
+
+.scnd_story:nth-of-type(1) > img{
+    border: 2px solid var(--fullpurps);
+    border-top-left-radius: 50px 100px;
+    border-top-right-radius: 75px 130px;
+    border-bottom-left-radius: 199px 100px;
+    border-bottom-right-radius: 120px 70px;
+}
+
+.scnd_story:nth-of-type(2) > img{
+    border: 2px solid var(--raincoat);
+    border-top-left-radius: 120px 70px;
+    border-top-right-radius: 120px 100px;
+    border-bottom-left-radius: 150px 130px;
+    border-bottom-right-radius: 199px 100px;
+}
+
+
+.scnd_story:nth-of-type(3) > img{
+    border: 2px solid var(--deepblue);
+    border-top-left-radius: 35px 150px;
+    border-top-right-radius: 120px 75px;
+    border-bottom-left-radius: 150px 130px;
+    border-bottom-right-radius: 35px 150px;
+}
+
+/* This is the little  alien animation */
+.animationbox{
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 35px;
+    border: 2px solid black;
+    background-image: url(../images/urban-road-with-cars-landscape/2271.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flying{
+    animation-name: bounce;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 250px;
+    width: 50px;
+}
+
+.ufo{
+    height: 50px;
+}
+
+@keyframes bounce{
+    0%{
+        top: calc(80% - 50px);
+        left: 0%;
+    }
+    25%{
+        left: calc(100% - 50px);
+        top: 0%;
+    }
+    50%{
+        top: 0%;
+        left: 0%;
+    }
+    75%{
+        left: calc(100% - 50px);
+        top: calc(80% - 50px);
+    }
+    100%{
+        top: calc(80% - 50px);
+        left: 0%;
+    }
+}
+/* ------------------- */

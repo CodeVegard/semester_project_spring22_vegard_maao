@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--deepblue);
     font-weight: 500;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 a, p, li{
@@ -287,8 +288,13 @@ nav{
     padding: 5px;
 }
 
-.days > li:hover{
+.days > li:nth-of-type(7n+5){
     background-color: var(--deepblue);
+    color: var(--raincoat);
+}
+
+.event{
+    text-decoration: none;
     color: var(--raincoat);
 }
 
