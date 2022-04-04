@@ -18,7 +18,7 @@
 
 
 .scnd_story:nth-of-type(3) > img{
-    border: 2px solid var(--deepblue);
+    border: 2px solid var(--skyblue);
     border-top-left-radius: 35px 150px;
     border-top-right-radius: 120px 75px;
     border-bottom-left-radius: 150px 130px;
