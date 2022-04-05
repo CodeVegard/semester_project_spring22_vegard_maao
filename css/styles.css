@@ -241,7 +241,8 @@ nav{
 .event_calendar{
     border: 2px solid var(--deepblue);
     border-radius: 35px;
-    margin: 18px;
+    margin: 18px auto;
+    max-width: 700px;
 }
 
 .calendar_header{
@@ -407,5 +408,9 @@ a > i{
 @media (max-width:460px) {
     .site_name{
         display: none;
+    }
+
+    .event_calendar{
+        margin: 18px;
     }
 }
