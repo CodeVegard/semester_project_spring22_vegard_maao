@@ -22,10 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a, p, li{
     font-family: var(--body-font);
-    font-size: 1.2rem; 
+    font-size: 1.3rem; 
     text-align: left;
     color: var(--deepblue);
     line-height: 1.5;
+    font-weight: 600;
 }
 
 main{
@@ -165,7 +166,7 @@ nav{
 /* Here is the hero story */
 
 .primary_section{
-    margin: 18px;
+    margin: 50px 18px;
 }
 
 .hero_image{
@@ -185,8 +186,6 @@ nav{
 
 .story_txt{
     margin: 10px 15px;
-    font-size: 1.3rem;
-    font-weight: 600;
 }
 
 .cta_btn{
