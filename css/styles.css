@@ -370,7 +370,7 @@ a > i{
 /* ------------------ */
 
 /* Media Queries */
-@media (min-width: 950px) {
+@media (min-width: 1060px) {
 
     .logo_banner{
         flex: 3;
