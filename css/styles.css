@@ -197,6 +197,7 @@ nav{
     font-size: 1.5rem;
     text-decoration: none;
     font-family: var(--header-font);
+    font-weight: 300;
     color: var(--raincoat);
     background-color: var(--deepblue);
     transition: ease-in-out 0.3s;
