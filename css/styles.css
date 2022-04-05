@@ -103,6 +103,7 @@ nav{
     border: 2px solid #00000000;
     border-radius: 15px;
     transition: ease-in-out 0.3s;
+    font-weight: 300;
 }
 
 .nav_li > a:hover{
@@ -346,8 +347,9 @@ a > i{
 }
 
 .cs_header{
-    margin: 0px;
+    margin: 5px 0px;
     font-size: 1.2rem;
+    text-align: left;
 }
 
 .cs_ul{
