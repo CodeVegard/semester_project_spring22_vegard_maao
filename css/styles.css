@@ -294,7 +294,7 @@ nav{
 
 .days > li:nth-of-type(7n+5){
     background-color: var(--deepblue);
-    color: var(--raincoat);
+    border-radius: 10px;
 }
 
 
@@ -305,6 +305,22 @@ nav{
 .event{
     text-decoration: none;
     color: var(--raincoat);
+    font-size: 1rem;
+}
+
+.days > li:nth-of-type(14n+6){
+    background-color: var(--raincoat);
+    border-radius: 10px;
+}
+
+
+.days > li:nth-of-type(7n+6):hover{
+    cursor: pointer;
+}
+
+.otherevent{
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 /* ------------------ */
