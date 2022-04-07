@@ -389,10 +389,6 @@ a > i{
 /* Media Queries */
 @media (min-width: 1060px) {
 
-    .logo_banner{
-        flex: 3;
-    }
-
     #menu_icon{
         display: none;
     }
