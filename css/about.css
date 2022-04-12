@@ -1,0 +1,22 @@
+.primary_section{
+    background-image: url(../images/default_images/exhibit.jpg);
+    min-height: 650px;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    border-radius: 35px; 
+    border: 2px solid var(--deepblue);
+}
+
+.about_hero{
+position: sticky;
+top: 250px;
+background: linear-gradient(#ffffff00, #fefbeb 90%, #ffffff00);
+height: 300px;
+}
+
+.about_hero > h1{
+    padding-top: 165px;
+}
