@@ -13,10 +13,6 @@
 .about_hero{
 position: sticky;
 top: 250px;
-background: linear-gradient(#ffffff00, #fefbeb 90%, #ffffff00);
-height: 300px;
-}
-
-.about_hero > h1{
-    padding-top: 165px;
+background: linear-gradient(#ffffff00, #fefbebab 5%, #fefbebab 90%, #ffffff00 99%);
+height: 250px;
 }
