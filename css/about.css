@@ -1,18 +1,9 @@
-.primary_section{
-    background-image: url(../images/default_images/exhibit.jpg);
-    min-height: 650px;
-    margin: 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: right;
-    border-radius: 35px; 
-    border: 2px solid var(--deepblue);
+.mapbox{
+    margin: auto;
+    max-width: 600px;
 }
 
-.about_hero{
-position: sticky;
-top: 250px;
-background: linear-gradient(#ffffff00, #fefbebab 5%, #fefbebab 90%, #ffffff00 99%);
-height: 250px;
+.map{
+    margin: auto;
+    max-width: 100%;
 }
