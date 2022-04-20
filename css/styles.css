@@ -226,9 +226,13 @@ nav{
 
 .scnd_img{
     max-width: 100%;
-    width: 350px;
+    height: 250px;
     border: 2px solid black;
     border-radius: 35px;
+}
+
+#bg_color{
+    background-color: var(--deepblue)
 }
 
 /* ------------------ */
@@ -287,11 +291,13 @@ nav{
     margin: 5px;
     font-size: 1rem;
     padding: 5px;
+    text-align: center;
 }
 
 .days > li:nth-of-type(7n+5){
     background-color: var(--deepblue);
     border-radius: 10px;
+    width: 20px;
 }
 
 
@@ -308,6 +314,7 @@ nav{
 .days > li:nth-of-type(14n+6){
     background-color: var(--raincoat);
     border-radius: 10px;
+    width: 20px;
 }
 
 
