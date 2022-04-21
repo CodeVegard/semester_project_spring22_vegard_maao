@@ -74,6 +74,8 @@ header > a{
 nav{
     transition: top 0.3s;
     z-index: 1;
+    display: none;
+    width: 100%;
 }
 
 .nav_ul{
@@ -125,11 +127,6 @@ nav{
     font-weight: 500;
     margin:auto;
     padding: 0px 10px;
-}
-
-nav{
-    display: none;
-    width: 100%;
 }
 
 #hamburger_menu{
