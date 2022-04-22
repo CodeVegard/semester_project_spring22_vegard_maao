@@ -76,3 +76,15 @@
 .block{
     height: 50px;
 }
+
+#show_science{
+    display: none;
+}
+
+#hidden{
+    display: none;
+}
+
+#show_science:checked ~ #hidden{
+    display: block;
+}
