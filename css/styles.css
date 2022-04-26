@@ -67,6 +67,7 @@ header > a{
 
 .header_logo{
     height: 50px;
+    width: 55px;
     background-color: var(--deepblue);
 }
 
