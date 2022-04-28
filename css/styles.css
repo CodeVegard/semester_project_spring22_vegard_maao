@@ -39,7 +39,7 @@ section{
 }
 
 section:nth-of-type(1){
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 article > p{
@@ -166,7 +166,6 @@ nav{
 /* Here is the hero story */
 
 .primary_section{
-    margin: 50px auto;
     padding: 10px;
 }
 
@@ -421,7 +420,7 @@ a > i{
     }
 
     section:nth-of-type(1){
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .footer_contentbox{
