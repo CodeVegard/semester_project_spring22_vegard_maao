@@ -71,6 +71,11 @@ header > a{
     background-color: var(--deepblue);
 }
 
+.block{
+    height: 50px;
+    width: 55px;
+}
+
 nav{
     transition: top 0.3s;
     z-index: 1;
@@ -118,7 +123,7 @@ nav{
 .logo_banner{
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 120fr;
+    grid-template-columns: 1fr 120fr 1fr;
 }
 
 .site_name{
@@ -424,7 +429,7 @@ a > i{
     }
 }
 
-@media (max-width:460px) {
+@media (max-width:500px) {
     .site_name{
         display: none;
     }
