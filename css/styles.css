@@ -35,7 +35,7 @@ main{
 }
 
 section{
-    margin: 50px auto;
+    margin: 50px 15px;
 }
 
 section:nth-of-type(1){
@@ -165,12 +165,8 @@ nav{
 
 /* Here is the hero story */
 
-.primary_section{
-    padding: 10px;
-}
-
 .hero_image{
-    max-width: 100%;
+    max-width: 99%;
     width: 1000px;
     height: 500px;
     margin: 30px auto;
@@ -419,8 +415,12 @@ a > i{
         border-right: none;
     }
 
+    section{
+        margin: 50px auto;
+    }
+
     section:nth-of-type(1){
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .footer_contentbox{
