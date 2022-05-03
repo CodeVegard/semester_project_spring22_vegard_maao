@@ -1,165 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="About the Community Science Museum" />
-    <title>Community Science Museum - About</title>
-    <script
-      src="https://kit.fontawesome.com/efafec28fb.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Quicksand:wght@500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/about.css" />
-  </head>
 
-  <body>
-    <header>
-      <div class="logo_banner">
-        <a href="index.html">
-          <img
-            src="images/default_images/logo_negative.png"
-            alt="The logo of My Sci Museum"
-            class="header_logo"
-        /></a>
-        <p class="site_name">Community Science Museum</p>
-        <div class="block"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About the Community Science Museum" />
+  <title>Community Science Museum - About</title>
+  <script src="https://kit.fontawesome.com/efafec28fb.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Quicksand:wght@500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/about.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo_banner">
+      <a href="index.html">
+        <img src="images/default_images/logo_negative.png" alt="The logo of My Sci Museum" class="header_logo" /></a>
+      <p class="site_name">Community Science Museum</p>
+      <div class="block"></div>
+    </div>
+    <label for="hamburger_menu" class="menubox"><i class="fas fa-bars" id="menu_icon"></i></label>
+    <input type="checkbox" name="hamburger_menu" id="hamburger_menu" />
+    <nav id="navbar">
+      <ul class="nav_ul">
+        <li class="nav_li"><a href="index.html">Home</a></li>
+        <li class="nav_li"><a href="museum.html">Exhibits</a></li>
+        <li class="nav_li"><a href="forkids.html">For the Kids</a></li>
+        <li class="nav_li"><a href="forteachers.html">For Teachers</a></li>
+        <li class="nav_li"><a href="makers.html">Maker Space</a></li>
+        <li class="nav_li"><a href="about.html#admission">Admission</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="primary_section">
+      <img src="images/default_images/exhibit.jpg" alt="Our main exhibit" class="hero_image" />
+      <div class="hero_story">
+        <h1>About us</h1>
+        <p class="story_txt">
+          The Community Science Museum has been open since 1994. In our 28
+          years of staying open, we have done our very best to be an
+          institution for learning, exploration and fun for children of all
+          ages!
+        </p>
       </div>
-      <label for="hamburger_menu" class="menubox"
-        ><i class="fas fa-bars" id="menu_icon"></i
-      ></label>
-      <input type="checkbox" name="hamburger_menu" id="hamburger_menu" />
-      <nav id="navbar">
-        <ul class="nav_ul">
-          <li class="nav_li"><a href="index.html">Home</a></li>
-          <li class="nav_li"><a href="museum.html">Exhibits</a></li>
-          <li class="nav_li"><a href="forkids.html">For the Kids</a></li>
-          <li class="nav_li"><a href="forteachers.html">For Teachers</a></li>
-          <li class="nav_li"><a href="makers.html">Maker Space</a></li>
-          <li class="nav_li"><a href="about.html#admission">Admission</a></li>
+    </section>
+
+    <section class="secondary_section">
+      <div class="scnd_story" id="admission">
+        <h2>Admission</h2>
+        <p class="story_txt">
+          Entry to the Museum is free! You can come as you please to enjoy our
+          <a href="museum.html">exhibits</a> and explore the museum by
+          yourself.
+        </p>
+        <p class="story_txt">
+          All we want is for you to enjoy yourself and ask our staff any
+          questions you might have &#128522;
+        </p>
+      </div>
+
+      <div class="scnd_story">
+        <h2>Tours</h2>
+        <p class="story_txt">
+          We also have guided tours of the museum. The tours cost 2,5 dollars
+          per person, or 25 dollars for groups of 10 or more people. Tours can
+          be booked at our reception desk, or via our email
+          <a href="mailto:booking@comscimuseum.com">booking@comscimuseum.com</a>.
+        </p>
+      </div>
+
+      <div class="scnd_story">
+        <h2>Opening Hours</h2>
+        <p class="story_txt">
+          We are open wednesday to sunday, from 10.00 to 20.00.
+        </p>
+      </div>
+    </section>
+
+    <section class="mapbox">
+      <h3>Where to Find Us</h3>
+      <p class="story_txt">
+        You can find us at Roadley Street 10, 1010 Placeington!
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57129.82377124784!2d10.368723179010733!3d63.41879588329962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319747037e53%3A0xbf7c8288f3cf3d4!2sTrondheim!5e0!3m2!1sno!2sno!4v1650442891216!5m2!1sno!2sno"
+        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+    </section>
+
+    <section class="contact" id="contactus">
+      <h4>Contact Us</h4>
+      <p class="story_txt">
+        You can call us at number <a href="tel:99999999">99999999</a> within
+        our opening hours, or send us an email at
+        <a href="mailto:contact@comscimuseum.com">contact@comscimuseum.com</a>. You are also very welcome to visit us at
+        Roadley Street 10!
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer_contentbox">
+      <div class="about">
+        <h2 class="cs_header">Info:</h2>
+        <ul class="cs_ul">
+          <li class="cs_li">
+            <a href="about.html">About us</a>
+          </li>
+          <li class="cs_li">
+            <a href="about.html#contactus">Contact us</a>
+          </li>
         </ul>
-      </nav>
-    </header>
-
-    <main>
-      <section class="primary_section">
-        <img
-          src="images/default_images/exhibit.jpg"
-          alt="Our main exhibit"
-          class="hero_image"
-        />
-        <div class="hero_story">
-          <h1>About us</h1>
-          <p class="story_txt">
-            The Community Science Museum has been open since 1994. In our 28
-            years of staying open, we have done our very best to be an
-            institution for learning, exploration and fun for children of all
-            ages!
-          </p>
-        </div>
-      </section>
-
-      <section class="secondary_section">
-        <div class="scnd_story" id="admission">
-          <h2>Admission</h2>
-          <p class="story_txt">
-            Entry to the Museum is free! You can come as you please to enjoy our
-            <a href="museum.html">exhibits</a> and explore the museum by
-            yourself.
-          </p>
-          <p class="story_txt">
-            All we want is for you to enjoy yourself and ask our staff any
-            questions you might have &#128522;
-          </p>
-        </div>
-
-        <div class="scnd_story">
-          <h2>Tours</h2>
-          <p class="story_txt">
-            We also have guided tours of the museum. The tours cost 2,5 dollars
-            per person, or 25 dollars for groups of 10 or more people. Tours can
-            be booked at our reception desk, or via our email
-            <a href="mailto:booking@comscimuseum.com"
-              >booking@comscimuseum.com</a
-            >.
-          </p>
-        </div>
-
-        <div class="scnd_story">
-          <h2>Opening Hours</h2>
-          <p class="story_txt">
-            We are open wednesday to sunday, from 10.00 to 20.00.
-          </p>
-        </div>
-      </section>
-
-      <section class="mapbox">
-        <h3>Where to Find Us</h3>
-        <p class="story_txt">
-          You can find us at Roadley Street 10, 1010 Placeington!
-        </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57129.82377124784!2d10.368723179010733!3d63.41879588329962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319747037e53%3A0xbf7c8288f3cf3d4!2sTrondheim!5e0!3m2!1sno!2sno!4v1650442891216!5m2!1sno!2sno"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          class="map"
-        ></iframe>
-      </section>
-
-      <section class="contact" id="contactus">
-        <h4>Contact Us</h4>
-        <p class="story_txt">
-          You can call us at number <a href="tel:99999999">99999999</a> within
-          our opening hours, or send us an email at
-          <a href="mailto:contact@comscimuseum.com">contact@comscimuseum.com</a
-          >. You are also very welcome to visit us at Roadley Street 10!
-        </p>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer_contentbox">
-        <div class="about">
-          <h2 class="cs_header">Info:</h2>
-          <ul class="cs_ul">
-            <li class="cs_li">
-              <a href="about.html">About us</a>
-            </li>
-            <li class="cs_li">
-              <a href="about.html#contactus">Contact us</a>
-            </li>
-          </ul>
-        </div>
-        <div class="some">
-          <a
-            class="some_icon"
-            href="https://www.instagram.com/"
-            title="instagram"
-          >
-            <i class="fab fa-instagram-square"></i>
-          </a>
-
-          <a
-            class="some_icon"
-            href="https://www.facebook.com/"
-            title="facebook"
-          >
-            <i class="fab fa-facebook-square"></i>
-          </a>
-        </div>
       </div>
-    </footer>
-    <script src="js/sticky_navbar.js"></script>
-  </body>
+      <div class="some">
+        <a class="some_icon" href="https://www.instagram.com/" title="instagram">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+
+        <a class="some_icon" href="https://www.facebook.com/" title="facebook">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/sticky_navbar.js"></script>
+</body>
+
 </html>
