@@ -308,6 +308,10 @@ nav{
     cursor: pointer;
 }
 
+.prevmonth{
+    color: gray;
+}
+
 .event{
     text-decoration: none;
     color: var(--raincoat);
