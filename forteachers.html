@@ -1,204 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bring the class to the Community Science Museum, or bring the Community Science Museum to class!"
+    />
+    <title>Community Science Museum - For Teachers</title>
+    <script
+      src="https://kit.fontawesome.com/efafec28fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Quicksand:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Hotjar Tracking Code for https://comscimuseum.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3255334, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <!-- Hotjar Tracking code end -->
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Bring the class to the Community Science Museum, or bring the Community Science Museum to class!" />
-  <title>Community Science Museum - For Teachers</title>
-  <script src="https://kit.fontawesome.com/efafec28fb.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Quicksand:wght@500;600&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-
-<body>
-  <header>
-    <div class="logo_banner">
-      <a href="index.html">
-        <img src="images/default_images/logo_negative.png" alt="The logo of My Sci Museum" class="header_logo" /></a>
-      <p class="site_name">Community Science Museum</p>
-      <div class="block"></div>
-    </div>
-    <label for="hamburger_menu" class="menubox"><i class="fas fa-bars" id="menu_icon"></i></label>
-    <input type="checkbox" name="hamburger_menu" id="hamburger_menu" />
-    <nav id="navbar">
-      <ul class="nav_ul">
-        <li class="nav_li"><a href="index.html">Home</a></li>
-        <li class="nav_li"><a href="museum.html">Exhibits</a></li>
-        <li class="nav_li"><a href="forkids.html">For Kids</a></li>
-        <li class="nav_li"><a href="forteachers.html">For Teachers</a></li>
-        <li class="nav_li"><a href="makers.html">Maker Space</a></li>
-        <li class="nav_li"><a href="about.html#admission">Admission</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="primary_section">
-      <img src="images/default_images/exhibit.jpg" alt="Our main exhibit" class="hero_image" />
-      <div class="hero_story">
-        <h1>Welcome to the Museum!</h1>
-        <p class="story_txt">
-          The museum is open for children of all ages, and we provide tours
-          and activities for the whole class!
-        </p>
-        <p class="story_txt">
-          We also offer activities in the Maker Space at our museum, as well
-          as sending our Senior Makers to the class for a Maker Day. Read more
-          below!
-        </p>
+  <body>
+    <header>
+      <div class="logo_banner">
+        <a href="index.html">
+          <img
+            src="images/default_images/logo_negative.png"
+            alt="The logo of My Sci Museum"
+            class="header_logo"
+        /></a>
+        <p class="site_name">Community Science Museum</p>
+        <div class="block"></div>
       </div>
-    </section>
-
-    <section class="secondary_section">
-      <div class="scnd_story">
-        <img src="images/default_images/genoa-956405_1920.jpg" alt="Our ant colony exhibit" class="scnd_img" />
-        <h2>Bring the class to the museum!</h2>
-        <p class="story_txt">
-          Join a guided tour of the museum and our exhibits! Sign your class
-          up for a tour by sending an email to
-          <a href="mailto:education@comscimuseum.com">education@comscimuseum.com</a>
-          or click the button below to read more about or exhibits.
-        </p>
-        <a href="museum.html" class="cta_btn">Our Exhibits</a>
-      </div>
-
-      <div class="scnd_story">
-        <img src="images/unsplash/maker_event.jpg" alt="Classrom with kids learning through exploration"
-          class="scnd_img" />
-        <h2>Bring the museum to class!</h2>
-        <p class="story_txt">
-          If it's not possible to bring the class to the museum, you can bring
-          the museum to the class! Our Senior Makers are happy to take a trip
-          to your school, where they engage the class through practically
-          applied science.
-        </p>
-        <p class="story_txt">
-          Send us an email at
-          <a href="mailto:education@comscimuseum.com">education@comscimuseum.com</a>
-          and we'll find the activities that are right for your class!
-        </p>
-      </div>
-
-      <div class="scnd_story">
-        <img src="images/unsplash/classroom.jpg" alt="A classroom full of students, learning code from a senior maker"
-          class="scnd_img" />
-        <h2>Coding for the class</h2>
-        <p class="story_txt">
-          We also offer programming lessons for your class, which are
-          available for kids 8-16. The classes range from basic logical
-          thinking to writing your own websites and games.
-        </p>
-        <p class="story_txt">
-          We can send out a Senior Maker to your school provided you have
-          computers for your class, or you can bring your class to us. Sign up
-          via email to
-          <a href="mailto:education@comscimuseum.com">education@comscimuseum.com</a>!
-        </p>
-      </div>
-
-      <div class="scnd_story">
-        <img src="images/unsplash/maker_oldest.jpg" alt="Teens doing science" class="scnd_img" />
-        <h2>Maker Space</h2>
-        <p class="story_txt">
-          Explore the Makers Space, where we create projects and learn along
-          the way!
-        </p>
-        <a href="makers.html" class="cta_btn">Let's Go!</a>
-      </div>
-    </section>
-
-    <div class="event_calendar" id="calendar">
-      <div class="calendar_header">
-        <h3>Event Calendar</h3>
-      </div>
-      <div class="month">
-        <p>April</p>
-      </div>
-
-      <div class="weeks_days">
-        <ul class="weekdays">
-          <li>Mo</li>
-          <li>Tu</li>
-          <li>We</li>
-          <li>Th</li>
-          <li>Fr</li>
-          <li>Sa</li>
-          <li>Su</li>
+      <label for="hamburger_menu" class="menubox"
+        ><i class="fas fa-bars" id="menu_icon"></i
+      ></label>
+      <input type="checkbox" name="hamburger_menu" id="hamburger_menu" />
+      <nav id="navbar">
+        <ul class="nav_ul">
+          <li class="nav_li"><a href="index.html">Home</a></li>
+          <li class="nav_li"><a href="museum.html">Exhibits</a></li>
+          <li class="nav_li"><a href="forkids.html">For Kids</a></li>
+          <li class="nav_li"><a href="forteachers.html">For Teachers</a></li>
+          <li class="nav_li"><a href="makers.html">Maker Space</a></li>
+          <li class="nav_li"><a href="about.html#admission">Admission</a></li>
         </ul>
+      </nav>
+    </header>
 
-        <ul class="days">
-          <li class="othermonth">28</li>
-          <li class="othermonth">29</li>
-          <li class="othermonth">30</li>
-          <li class="othermonth">31</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">1</a></li>
-          <li><a href="makers.html#makerdays" class="otherevent" title="Maker Days">2</a></li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">8</a></li>
-          <li>9</li>
-          <li>10</li>
-          <li>11</li>
-          <li>12</li>
-          <li>13</li>
-          <li>14</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">15</a></li>
-          <li><a href="makers.html#makerdays" class="otherevent" title="Maker Days">16</a></li>
-          <li>17</li>
-          <li>18</li>
-          <li>19</li>
-          <li>20</li>
-          <li>21</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">22</a></li>
-          <li>23</li>
-          <li>24</li>
-          <li>25</li>
-          <li>26</li>
-          <li>27</li>
-          <li>28</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">29</a></li>
-          <li><a href="makers.html#makerdays" class="otherevent" title="Maker Days">30</a></li>
-          <li class="othermonth">1</li>
-        </ul>
+    <main>
+      <section class="primary_section">
+        <img
+          src="images/default_images/exhibit.jpg"
+          alt="Our main exhibit"
+          class="hero_image"
+        />
+        <div class="hero_story">
+          <h1>Welcome to the Museum!</h1>
+          <p class="story_txt">
+            The museum is open for children of all ages, and we provide tours
+            and activities for the whole class!
+          </p>
+          <p class="story_txt">
+            We also offer activities in the Maker Space at our museum, as well
+            as sending our Senior Makers to the class for a Maker Day. Read more
+            below!
+          </p>
+        </div>
+      </section>
+
+      <section class="secondary_section">
+        <div class="scnd_story">
+          <img
+            src="images/default_images/genoa-956405_1920.jpg"
+            alt="Our ant colony exhibit"
+            class="scnd_img"
+          />
+          <h2>Bring the class to the museum!</h2>
+          <p class="story_txt">
+            Join a guided tour of the museum and our exhibits! Sign your class
+            up for a tour by sending an email to
+            <a href="mailto:education@comscimuseum.com"
+              >education@comscimuseum.com</a
+            >
+            or click the button below to read more about or exhibits.
+          </p>
+          <a href="museum.html" class="cta_btn">Our Exhibits</a>
+        </div>
+
+        <div class="scnd_story">
+          <img
+            src="images/unsplash/maker_event.jpg"
+            alt="Classrom with kids learning through exploration"
+            class="scnd_img"
+          />
+          <h2>Bring the museum to class!</h2>
+          <p class="story_txt">
+            If it's not possible to bring the class to the museum, you can bring
+            the museum to the class! Our Senior Makers are happy to take a trip
+            to your school, where they engage the class through practically
+            applied science.
+          </p>
+          <p class="story_txt">
+            Send us an email at
+            <a href="mailto:education@comscimuseum.com"
+              >education@comscimuseum.com</a
+            >
+            and we'll find the activities that are right for your class!
+          </p>
+        </div>
+
+        <div class="scnd_story">
+          <img
+            src="images/unsplash/classroom.jpg"
+            alt="A classroom full of students, learning code from a senior maker"
+            class="scnd_img"
+          />
+          <h2>Coding for the class</h2>
+          <p class="story_txt">
+            We also offer programming lessons for your class, which are
+            available for kids 8-16. The classes range from basic logical
+            thinking to writing your own websites and games.
+          </p>
+          <p class="story_txt">
+            We can send out a Senior Maker to your school provided you have
+            computers for your class, or you can bring your class to us. Sign up
+            via email to
+            <a href="mailto:education@comscimuseum.com"
+              >education@comscimuseum.com</a
+            >!
+          </p>
+        </div>
+
+        <div class="scnd_story">
+          <img
+            src="images/unsplash/maker_oldest.jpg"
+            alt="Teens doing science"
+            class="scnd_img"
+          />
+          <h2>Maker Space</h2>
+          <p class="story_txt">
+            Explore the Makers Space, where we create projects and learn along
+            the way!
+          </p>
+          <a href="makers.html" class="cta_btn">Let's Go!</a>
+        </div>
+      </section>
+
+      <div class="event_calendar" id="calendar">
+        <div class="calendar_header">
+          <h3>Event Calendar</h3>
+        </div>
+        <div class="month">
+          <p>April</p>
+        </div>
+
+        <div class="weeks_days">
+          <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+          </ul>
+
+          <ul class="days">
+            <li class="othermonth">28</li>
+            <li class="othermonth">29</li>
+            <li class="othermonth">30</li>
+            <li class="othermonth">31</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >1</a
+              >
+            </li>
+            <li>
+              <a
+                href="makers.html#makerdays"
+                class="otherevent"
+                title="Maker Days"
+                >2</a
+              >
+            </li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >8</a
+              >
+            </li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >15</a
+              >
+            </li>
+            <li>
+              <a
+                href="makers.html#makerdays"
+                class="otherevent"
+                title="Maker Days"
+                >16</a
+              >
+            </li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >22</a
+              >
+            </li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >29</a
+              >
+            </li>
+            <li>
+              <a
+                href="makers.html#makerdays"
+                class="otherevent"
+                title="Maker Days"
+                >30</a
+              >
+            </li>
+            <li class="othermonth">1</li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer>
-    <div class="footer_contentbox">
-      <div class="about">
-        <h2 class="cs_header">Info:</h2>
-        <ul class="cs_ul">
-          <li class="cs_li">
-            <a href="about.html">About us</a>
-          </li>
-          <li class="cs_li">
-            <a href="about.html#contactus">Contact us</a>
-          </li>
-        </ul>
+    <footer>
+      <div class="footer_contentbox">
+        <div class="about">
+          <h2 class="cs_header">Info:</h2>
+          <ul class="cs_ul">
+            <li class="cs_li">
+              <a href="about.html">About us</a>
+            </li>
+            <li class="cs_li">
+              <a href="about.html#contactus">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="some">
+          <a
+            class="some_icon"
+            href="https://www.instagram.com/"
+            title="instagram"
+          >
+            <i class="fab fa-instagram-square"></i>
+          </a>
+
+          <a
+            class="some_icon"
+            href="https://www.facebook.com/"
+            title="facebook"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </div>
       </div>
-      <div class="some">
-        <a class="some_icon" href="https://www.instagram.com/" title="instagram">
-          <i class="fab fa-instagram-square"></i>
-        </a>
-
-        <a class="some_icon" href="https://www.facebook.com/" title="facebook">
-          <i class="fab fa-facebook-square"></i>
-        </a>
-      </div>
-    </div>
-  </footer>
-  <script src="js/sticky_navbar.js"></script>
-</body>
-
+    </footer>
+    <script src="js/sticky_navbar.js"></script>
+  </body>
 </html>

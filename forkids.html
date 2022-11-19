@@ -1,281 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the Kids Corner, where we have projects you can  do at home, animations and more!"
+    />
+    <title>Community Science Museum - For Kids</title>
+    <script
+      src="https://kit.fontawesome.com/efafec28fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Quicksand:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/forkids.css" />
+    <!-- Hotjar Tracking Code for https://comscimuseum.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3255334, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <!-- Hotjar Tracking code end -->
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Welcome to the Kids Corner, where we have projects you can  do at home, animations and more!" />
-  <title>Community Science Museum - For Kids</title>
-  <script src="https://kit.fontawesome.com/efafec28fb.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Quicksand:wght@500;600&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/forkids.css" />
-</head>
+  <body>
+    <header>
+      <div class="logo_banner">
+        <a href="index.html">
+          <img
+            src="images/default_images/logo_negative.png"
+            alt="The logo of My Sci Museum"
+            class="header_logo"
+        /></a>
+        <p class="site_name">Community Science Museum</p>
+        <div class="block"></div>
+      </div>
+      <label for="hamburger_menu" class="menubox"
+        ><i class="fas fa-bars" id="menu_icon"></i
+      ></label>
+      <input type="checkbox" name="hamburger_menu" id="hamburger_menu" />
+      <nav id="navbar">
+        <ul class="nav_ul">
+          <li class="nav_li"><a href="index.html">Home</a></li>
+          <li class="nav_li"><a href="museum.html">Exhibits</a></li>
+          <li class="nav_li"><a href="forkids.html">For Kids</a></li>
+          <li class="nav_li"><a href="forteachers.html">For Teachers</a></li>
+          <li class="nav_li"><a href="makers.html">Maker Space</a></li>
+          <li class="nav_li"><a href="about.html#admission">Admission</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <div class="logo_banner">
-      <a href="index.html">
-        <img src="images/default_images/logo_negative.png" alt="The logo of My Sci Museum" class="header_logo" /></a>
-      <p class="site_name">Community Science Museum</p>
-      <div class="block"></div>
-    </div>
-    <label for="hamburger_menu" class="menubox"><i class="fas fa-bars" id="menu_icon"></i></label>
-    <input type="checkbox" name="hamburger_menu" id="hamburger_menu" />
-    <nav id="navbar">
-      <ul class="nav_ul">
-        <li class="nav_li"><a href="index.html">Home</a></li>
-        <li class="nav_li"><a href="museum.html">Exhibits</a></li>
-        <li class="nav_li"><a href="forkids.html">For Kids</a></li>
-        <li class="nav_li"><a href="forteachers.html">For Teachers</a></li>
-        <li class="nav_li"><a href="makers.html">Maker Space</a></li>
-        <li class="nav_li"><a href="about.html#admission">Admission</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <section class="primary_section">
+        <img
+          src="images/unsplash/vr_kids.jpg"
+          alt="A kid playing in virtual reality"
+          class="hero_image"
+        />
+        <div class="hero_story">
+          <h1>Welcome to the Kids Corner!</h1>
+          <p class="story_txt">
+            Welcome to the Kids Corner! Here you can find projects you can do at
+            home and learn about science along the way. Feel free to explore the
+            site!
+          </p>
+        </div>
+      </section>
 
-  <main>
-    <section class="primary_section">
-      <img src="images/unsplash/vr_kids.jpg" alt="A kid playing in virtual reality" class="hero_image" />
-      <div class="hero_story">
-        <h1>Welcome to the Kids Corner!</h1>
+      <section class="secondary_section">
+        <div class="scnd_story">
+          <img
+            src="images/unsplash/science_kid.jpg"
+            alt="Making Non-Newtonian fluid"
+            class="scnd_img"
+          />
+          <h2>Experiments</h2>
+          <p class="story_txt">
+            Here are some experiments you can do at home! See how to make a
+            fluid that is also a solid, and learn the science behind an everyday
+            vegetable &#128515;
+          </p>
+          <a href="forkids.html#experiment" class="cta_btn">Learn more!</a>
+        </div>
+
+        <div class="scnd_story">
+          <img
+            src="images/unsplash/rocket.jpg"
+            alt="A cartoon rocketship on a blue background?"
+            class="scnd_img"
+          />
+          <h2>Life in Space?</h2>
+          <p class="story_txt">
+            Explore space at the Community Science Museum &#128760;
+          </p>
+          <a href="forkids.html#space" class="cta_btn">Read More!</a>
+        </div>
+
+        <div class="scnd_story">
+          <img
+            src="images/unsplash/maker_oldest.jpg"
+            alt="Teens doing science"
+            class="scnd_img"
+          />
+          <h2>Maker Space</h2>
+          <p class="story_txt">
+            Explore the Makers Space, where we create projects and learn along
+            the way!
+          </p>
+          <a href="makers.html" class="cta_btn">Let's Go!</a>
+        </div>
+
+        <div class="scnd_story">
+          <img
+            src="images/unsplash/teacher_01.jpg"
+            alt="A teacher in the classroom"
+            class="scnd_img"
+          />
+          <h2>For Teachers and Schools</h2>
+          <p class="story_txt">
+            The museum offers guided tours and maker events for schoolchildren
+            of all ages.
+          </p>
+          <a href="forteachers.html" class="cta_btn">Learn More!</a>
+        </div>
+      </section>
+
+      <section class="primary_section" id="space">
+        <h3>Could there be life in space?</h3>
         <p class="story_txt">
-          Welcome to the Kids Corner! Here you can find projects you can do at
-          home and learn about science along the way. Feel free to explore the
-          site!
+          Since the dawn of time, we've gazed at the stars, wondering "what's
+          out there?" And while we still cannot know for sure, we can theorize.
+          Come to our planetarium where we explore the cosmos and learn about
+          space! Open every friday, marked blue in the
+          <a href="forkids.html#calendar">Event Calendar</a> &#128125;
         </p>
-      </div>
-    </section>
 
-    <section class="secondary_section">
-      <div class="scnd_story">
-        <img src="images/unsplash/science_kid.jpg" alt="Making Non-Newtonian fluid" class="scnd_img" />
-        <h2>Experiments</h2>
+        <div class="animationbox">
+          <div class="flying">
+            <img
+              src="images/ufo/ufo.png"
+              alt="Cartoon ufo flying around a city"
+              class="ufo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="primary_section" id="experiment">
+        <h3>Making Non-Newtonian Fluids</h3>
         <p class="story_txt">
-          Here are some experiments you can do at home! See how to make a
-          fluid that is also a solid, and learn the science behind an everyday
-          vegetable &#128515;
+          Have you ever seen a liquid become solid when you hit it? With just a
+          few household components, we can do an experiment to make what's
+          called a "Non-Newtonian fluid", which behaves like a liquid until
+          force is applied! &#128516;
         </p>
-        <a href="forkids.html#experiment" class="cta_btn">Learn more!</a>
-      </div>
-
-      <div class="scnd_story">
-        <img src="images/unsplash/rocket.jpg" alt="A cartoon rocketship on a blue background?" class="scnd_img" />
-        <h2>Life in Space?</h2>
-        <p class="story_txt">Explore space at the Community Science Museum &#128760;</p>
-        <a href="forkids.html#space" class="cta_btn">Read More!</a>
-      </div>
-
-      <div class="scnd_story">
-        <img src="images/unsplash/maker_oldest.jpg" alt="Teens doing science" class="scnd_img" />
-        <h2>Maker Space</h2>
+        <p class="story_txt">To make this, you need the following:</p>
+        <ul class="ingredients">
+          <li>Water</li>
+          <li>Cornstarch</li>
+          <li>A bowl (bigger is better to avoid spills)</li>
+        </ul>
         <p class="story_txt">
-          Explore the Makers Space, where we create projects and learn along
-          the way!
+          From here, it's as simple as ABC! You need equal amounts of water to
+          cornstarch and we recommend putting down some newspaper or a plastic
+          sheet on your table in case of spills.
         </p>
-        <a href="makers.html" class="cta_btn">Let's Go!</a>
-      </div>
-
-      <div class="scnd_story">
-        <img src="images/unsplash/teacher_01.jpg" alt="A teacher in the classroom" class="scnd_img" />
-        <h2>For Teachers and Schools</h2>
         <p class="story_txt">
-          The museum offers guided tours and maker events for schoolchildren
-          of all ages.
+          Put your cornstarch in the bowl, then add water slowly while mixing at
+          a slow pace. Try tapping the liquid every now and then, until it stops
+          splashing when you do so. It should feel like a "stiff" liquid when
+          stirred and a solid when you tap it.
         </p>
-        <a href="forteachers.html" class="cta_btn">Learn More!</a>
-      </div>
-    </section>
+        <p class="story_txt">
+          Congratulations! You just made a Non-Newtonian fluid! &#129395;
+        </p>
 
-    <section class="primary_section" id="space">
-      <h3>Could there be life in space?</h3>
-      <p class="story_txt">
-        Since the dawn of time, we've gazed at the stars, wondering "what's
-        out there?" And while we still cannot know for sure, we can theorize.
-        Come to our planetarium where we explore the cosmos and learn about
-        space! Open every friday, marked blue in the
-        <a href="forkids.html#calendar">Event Calendar</a> &#128125;
-      </p>
+        <img
+          src="images/unsplash/splash.jpg"
+          alt="Non-Newtonian fluid"
+          class="hero_image"
+        />
+      </section>
 
-      <div class="animationbox">
-        <div class="flying">
-          <img src="images/ufo/ufo.png" alt="Cartoon ufo flying around a city" class="ufo" />
+      <section class="primary_section">
+        <img
+          src="images/unsplash/red_cabbage.jpg"
+          alt="Red cabbage cut in half"
+          class="hero_image"
+        />
+        <h3>Red Cabbage Experiment</h3>
+        <p class="story_txt">
+          Here's a neat experiment you can do with a piece of red cabbage! You
+          will need the following:
+        </p>
+        <ul>
+          <li>A bit of red cabbage</li>
+          <li>
+            Boiling water (Note! Boiling water can cause burns. Please have an
+            adult with you to help)
+          </li>
+          <li>A jug</li>
+          <li>Two glasses</li>
+          <li>Baking powder</li>
+          <li>Lemon Juice</li>
+        </ul>
+        <p class="story_txt">
+          To begin with, cut your red cabbage into rough pieces. Then put the
+          pieces into your jug, and add the boiling water. Please get an adult
+          to help with the cutting and boiling water, to avoid cuts and burns.
+          Let the cabbage steep in the hot water for 10-15 minutes to cool off.
+          You will have a redish liquid once this is complete.
+        </p>
+        <p class="story_txt">
+          While the cabbage steeps, add lemon juice and water into one glass and
+          mix baking powder into some water in the other glass. Leave room in
+          the glasses so there's space to add the cabbage water. Once the
+          cabbage water has cooled down, pour it into your glasses and see the
+          magic happen! Afterwards, you can press the button below to see what
+          happens and why!
+        </p>
+        <label for="show_science"><span class="cta_btn">Show me!</span></label>
+        <input type="checkbox" name="show_science" id="show_science" />
+        <div id="hidden">
+          <p class="story_txt">
+            Red cabbage gets its colors from a pigment called "flavin" or
+            "anthocyanin", which is also found in grapes, apple skin and more.
+            When this pigment is in a neutral pH enviorment (like water, which
+            is what the cabbage is mostly made of), flavin has a purple color.
+            But in a higher pH enviorment (caustic, like baking powder) it's
+            green/yellow, and in a lower pH (sour, like lemon) it turns red.
+            It's natures own pH indicator! &#129299;
+          </p>
+          <img
+            src="images/unsplash/science_kid.jpg"
+            alt="Child learning about chemistry"
+            class="hero_image"
+          />
+        </div>
+      </section>
+
+      <div class="event_calendar" id="calendar">
+        <div class="calendar_header">
+          <h3>Event Calendar</h3>
+        </div>
+        <div class="month">
+          <p>April</p>
+        </div>
+
+        <div class="weeks_days">
+          <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+          </ul>
+
+          <ul class="days">
+            <li class="othermonth">28</li>
+            <li class="othermonth">29</li>
+            <li class="othermonth">30</li>
+            <li class="othermonth">31</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >1</a
+              >
+            </li>
+            <li>
+              <a
+                href="makers.html#makerdays"
+                class="otherevent"
+                title="Maker Days"
+                >2</a
+              >
+            </li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >8</a
+              >
+            </li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >15</a
+              >
+            </li>
+            <li>
+              <a
+                href="makers.html#makerdays"
+                class="otherevent"
+                title="Maker Days"
+                >16</a
+              >
+            </li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >22</a
+              >
+            </li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>
+              <a href="forkids.html#space" class="event" title="Explore Space"
+                >29</a
+              >
+            </li>
+            <li>
+              <a
+                href="makers.html#makerdays"
+                class="otherevent"
+                title="Maker Days"
+                >30</a
+              >
+            </li>
+            <li class="othermonth">1</li>
+          </ul>
         </div>
       </div>
-    </section>
+    </main>
 
-    <section class="primary_section" id="experiment">
-      <h3>Making Non-Newtonian Fluids</h3>
-      <p class="story_txt">
-        Have you ever seen a liquid become solid when you hit it? With just a
-        few household components, we can do an experiment to make what's
-        called a "Non-Newtonian fluid", which behaves like a liquid until
-        force is applied! &#128516;
-      </p>
-      <p class="story_txt">To make this, you need the following:</p>
-      <ul class="ingredients">
-        <li>Water</li>
-        <li>Cornstarch</li>
-        <li>A bowl (bigger is better to avoid spills)</li>
-      </ul>
-      <p class="story_txt">
-        From here, it's as simple as ABC! You need equal amounts of water to
-        cornstarch and we recommend putting down some newspaper or a plastic
-        sheet on your table in case of spills.
-      </p>
-      <p class="story_txt">
-        Put your cornstarch in the bowl, then add water slowly while mixing at
-        a slow pace. Try tapping the liquid every now and then, until it stops
-        splashing when you do so. It should feel like a "stiff" liquid when
-        stirred and a solid when you tap it.
-      </p>
-      <p class="story_txt">
-        Congratulations! You just made a Non-Newtonian fluid! &#129395;
-      </p>
+    <footer>
+      <div class="footer_contentbox">
+        <div class="about">
+          <h2 class="cs_header">Info:</h2>
+          <ul class="cs_ul">
+            <li class="cs_li">
+              <a href="about.html">About us</a>
+            </li>
+            <li class="cs_li">
+              <a href="about.html#contactus">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="some">
+          <a
+            class="some_icon"
+            href="https://www.instagram.com/"
+            title="instagram"
+          >
+            <i class="fab fa-instagram-square"></i>
+          </a>
 
-      <img src="images/unsplash/splash.jpg" alt="Non-Newtonian fluid" class="hero_image" />
-    </section>
-
-    <section class="primary_section">
-      <img src="images/unsplash/red_cabbage.jpg" alt="Red cabbage cut in half" class="hero_image" />
-      <h3>Red Cabbage Experiment</h3>
-      <p class="story_txt">
-        Here's a neat experiment you can do with a piece of red cabbage! You
-        will need the following:
-      </p>
-      <ul>
-        <li>A bit of red cabbage</li>
-        <li>
-          Boiling water (Note! Boiling water can cause burns. Please have an
-          adult with you to help)
-        </li>
-        <li>A jug</li>
-        <li>Two glasses</li>
-        <li>Baking powder</li>
-        <li>Lemon Juice</li>
-      </ul>
-      <p class="story_txt">
-        To begin with, cut your red cabbage into rough pieces. Then put the
-        pieces into your jug, and add the boiling water. Please get an adult
-        to help with the cutting and boiling water, to avoid cuts and burns.
-        Let the cabbage steep in the hot water for 10-15 minutes to cool off.
-        You will have a redish liquid once this is complete.
-      </p>
-      <p class="story_txt">
-        While the cabbage steeps, add lemon juice and water into one glass and
-        mix baking powder into some water in the other glass. Leave room in
-        the glasses so there's space to add the cabbage water. Once the
-        cabbage water has cooled down, pour it into your glasses and see the
-        magic happen! Afterwards, you can press the button below to see what
-        happens and why!
-      </p>
-      <label for="show_science"><span class="cta_btn">Show me!</span></label>
-      <input type="checkbox" name="show_science" id="show_science" />
-      <div id="hidden">
-        <p class="story_txt">
-          Red cabbage gets its colors from a pigment called "flavin" or
-          "anthocyanin", which is also found in grapes, apple skin and more.
-          When this pigment is in a neutral pH enviorment (like water, which
-          is what the cabbage is mostly made of), flavin has a purple color.
-          But in a higher pH enviorment (caustic, like baking powder) it's
-          green/yellow, and in a lower pH (sour, like lemon) it turns red.
-          It's natures own pH indicator! &#129299;
-        </p>
-        <img src="images/unsplash/science_kid.jpg" alt="Child learning about chemistry" class="hero_image" />
+          <a
+            class="some_icon"
+            href="https://www.facebook.com/"
+            title="facebook"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </div>
       </div>
-    </section>
-
-    <div class="event_calendar" id="calendar">
-      <div class="calendar_header">
-        <h3>Event Calendar</h3>
-      </div>
-      <div class="month">
-        <p>April</p>
-      </div>
-
-      <div class="weeks_days">
-        <ul class="weekdays">
-          <li>Mo</li>
-          <li>Tu</li>
-          <li>We</li>
-          <li>Th</li>
-          <li>Fr</li>
-          <li>Sa</li>
-          <li>Su</li>
-        </ul>
-
-        <ul class="days">
-          <li class="othermonth">28</li>
-          <li class="othermonth">29</li>
-          <li class="othermonth">30</li>
-          <li class="othermonth">31</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">1</a></li>
-          <li><a href="makers.html#makerdays" class="otherevent" title="Maker Days">2</a></li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">8</a></li>
-          <li>9</li>
-          <li>10</li>
-          <li>11</li>
-          <li>12</li>
-          <li>13</li>
-          <li>14</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">15</a></li>
-          <li><a href="makers.html#makerdays" class="otherevent" title="Maker Days">16</a></li>
-          <li>17</li>
-          <li>18</li>
-          <li>19</li>
-          <li>20</li>
-          <li>21</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">22</a></li>
-          <li>23</li>
-          <li>24</li>
-          <li>25</li>
-          <li>26</li>
-          <li>27</li>
-          <li>28</li>
-          <li><a href="forkids.html#space" class="event" title="Explore Space">29</a></li>
-          <li><a href="makers.html#makerdays" class="otherevent" title="Maker Days">30</a></li>
-          <li class="othermonth">1</li>
-        </ul>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <div class="footer_contentbox">
-      <div class="about">
-        <h2 class="cs_header">Info:</h2>
-        <ul class="cs_ul">
-          <li class="cs_li">
-            <a href="about.html">About us</a>
-          </li>
-          <li class="cs_li">
-            <a href="about.html#contactus">Contact us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="some">
-        <a class="some_icon" href="https://www.instagram.com/" title="instagram">
-          <i class="fab fa-instagram-square"></i>
-        </a>
-
-        <a class="some_icon" href="https://www.facebook.com/" title="facebook">
-          <i class="fab fa-facebook-square"></i>
-        </a>
-      </div>
-    </div>
-  </footer>
-  <script src="js/sticky_navbar.js"></script>
-</body>
-
+    </footer>
+    <script src="js/sticky_navbar.js"></script>
+  </body>
 </html>
