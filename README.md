@@ -10,16 +10,26 @@ Full task descripton:
 ### Skills I have picked up from this project
 
 - Design skills
+    - Proficiency in Adobe XD
     - Design for children
     - WCAG Standard in design
     - Mobile first 
-- HTML 
-    - 
+- HTML
+    - Semantic HTML
+- CSS
+    - Media Queries 
+    - Neat CSS that should not repeat itself
+    - Animation skills
+    - CSS "hacks" to display content when checkboxes are checked
+- JavaScript 
+    - This project was started before the JavaScript course. Meaning that the JS file is not very good, but I learned some basics on my own when creating the sticky navbar function.
+- Other 
+    - Time management skills 
+    - Project management skills
 
 
 ## Built With
 
-- Design in Adobe XD
 - HTML5
 - CSS
 - JavaScript 
