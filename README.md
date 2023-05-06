@@ -27,7 +27,6 @@ Full task descripton:
     - Time management skills 
     - Project management skills
 
-
 ## Built With
 
 - HTML5
