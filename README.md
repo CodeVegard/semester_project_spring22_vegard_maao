@@ -1,5 +1,7 @@
 # Semester Project Spring 2022
 
+![image]
+
 This was my semester project for the spring of 22. The task was to make a site for a childrens science museum, which is responsive to screen sizes, in compliance with WCAG standards, and engaging for kids.
 
 ## Description
