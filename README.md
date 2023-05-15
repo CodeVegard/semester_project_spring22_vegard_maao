@@ -1,6 +1,6 @@
 # Semester Project Spring 2022
 
-![image]
+![image](https://raw.githubusercontent.com/VegardMaao/semester_project_spring22_vegard_maao/main/images/site_running.JPG?token=GHSAT0AAAAAACB2EMHJOTDHS2464EEJWJK4ZDCC2CA)
 
 This was my semester project for the spring of 22. The task was to make a site for a childrens science museum, which is responsive to screen sizes, in compliance with WCAG standards, and engaging for kids.
 
