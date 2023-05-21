@@ -9,6 +9,18 @@ This was my semester project for the spring of 22. The task was to make a site f
 Full task descripton:
 >*An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (7-15) and families with young children. The museum wants a website that is informative and appealing, that will attract both middle school pupils and their parents. The site should appeal to youngsters without pandering; it should take for granted that the audience is inquisitive and intelligent. The website should be informative and engaging, but should encourage viewers to visit the museum itself. The website should be responsive and be easy to use on a variety of devices*
 
+## Built With
+
+- HTML5
+- CSS
+- JavaScript 
+
+## Installation
+
+No installation needed, I have only been using vanilla variants of HTML, CSS and JS. Clone the repo, open it in VSCode and run it via Live Server to have a look around. Alternatively, go to the live site:
+
+https://comscimuseum.netlify.app/
+
 ### Skills I have picked up from this project
 
 - Design skills
@@ -28,12 +40,6 @@ Full task descripton:
 - Other 
     - Time management skills 
     - Project management skills
-
-## Built With
-
-- HTML5
-- CSS
-- JavaScript 
 
 ## Contributing
 
